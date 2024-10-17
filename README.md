@@ -25,12 +25,12 @@ forge test -vvv
 ```
 
 ### Result
-The following versions all returns the same base64 hash:
+The following versions all returns the same base64 hash:  
 v5.1.0  
 v5.0.2  
 v4.9.0  
 v4.8.0  
-v4.5.0  
+v4.5.0 (earliest version with Base64 at the same filepath)
 
 ### Conclusion
 No idea why the resulting base64 hash from Equious and gin is different yet.
